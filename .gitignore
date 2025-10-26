@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+output/
+
+# Source cache
+.source-cache/
+
+# Backup files
+*.bak
+
+# macOS
+.DS_Store
+.claude/settings.local.json
+build.log
