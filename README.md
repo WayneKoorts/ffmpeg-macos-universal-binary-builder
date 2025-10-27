@@ -233,10 +233,6 @@ FFmpeg is built with comprehensive codec and format support:
 
 The `lipo` tool combines the arm64 and x86_64 binaries into universal binaries that work on both Intel and Apple Silicon Macs.
 
-## Build Time
-
-The complete build process typically takes 30-60 minutes depending on your machine's performance. The script uses parallel compilation (based on CPU core count) to speed up the process.
-
 ## Troubleshooting
 
 ### Build Failures
@@ -247,10 +243,6 @@ If the build fails:
 2. Ensure you have Xcode Command Line Tools: `xcode-select --install`
 3. Review the error messages for missing dependencies or configuration issues
 4. Try cleaning the build directory: `rm -rf build/ output/`
-
-### Disk Space
-
-Ensure you have at least 10GB of free disk space for source downloads and compilation artifacts.
 
 ### Network Issues
 
